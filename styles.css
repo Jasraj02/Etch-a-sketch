@@ -2,3 +2,25 @@
 
 body {padding:20px} 
 
+.upperDiv {
+    /* border: solid blue; */
+    display: flex;
+    align-items : center;
+    justify-content : space-between;
+    box-sizing  : border-box;
+}
+
+.lowerDiv {
+    border: solid rgb(0, 0, 0);
+    box-sizing: border-box;
+} 
+
+
+.lowerDiv:hover {
+    background-color: aqua;
+}
+
+button {
+    margin:20px 20px 20px 0;
+
+}
