@@ -13,14 +13,22 @@ body {padding:20px}
 .lowerDiv {
     border: solid rgb(0, 0, 0);
     box-sizing: border-box;
+    opacity:0.1;
 } 
 
 
 .lowerDiv:hover {
-    background-color: aqua;
+    background-color: black;
+    opacity:1;
 }
 
 button {
     margin:20px 20px 20px 0;
 
+}
+
+
+.etch {
+    background-color: black;
+    color:black;
 }
