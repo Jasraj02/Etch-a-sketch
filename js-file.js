@@ -28,8 +28,12 @@ function createGrid(size) {
 function removeGrid () {
     var allDiv = document.querySelectorAll("div")
     for (var element of allDiv) {
-        const parentElement = element.parentElement
-        parentElement.removeChild(element)
+        if (element.getAttribute('id') == "container") {
+            continue
+        }
+        else{
+            const parentElement = element.parentElement
+            parentElement.removeChild(element)}
     }
 }
 
